@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CV – Kevin Javier Macedonio Pantaleón</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;900&family=Inter:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/>
+  <!-- Estilos propios -->
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+  <div class="cv-wrapper container-fluid p-0">
+    <div class="row g-0 min-vh-100">
+
+      <!-- ── SIDEBAR ── -->
+      <aside class="col-12 col-md-4 sidebar d-flex flex-column">
+
+        <!-- Foto + nombre -->
+        <div class="sidebar-header text-center px-4 pt-5 pb-4">
+          <div class="avatar-ring mx-auto mb-3">
+            <!-- CORRECCIÓN AQUÍ: Se añadió img-fluid -->
+            <img src="./cv.jpeg" alt="Foto de perfil" class="avatar-img img-fluid"/>
+          </div>
+          <h1 class="sidebar-name">Kevin Javier Macedonio Pantaleón</h1>
+          <p class="sidebar-title">Infraestructura de Redes Digitales</p>
+          <div class="teal-divider mx-auto"></div>
+        </div>
+
+        <!-- Contacto -->
+        <div class="sidebar-section px-4">
+          <h2 class="sidebar-heading"><i class="bi bi-person-lines-fill me-2"></i>Contacto</h2>
+          <ul class="contact-list">
+            <li><i class="bi bi-envelope-fill"></i><a href="mailto:pantaleonk707@email.com">pantaleonk707@email.com</a></li>
+            <li><i class="bi bi-telephone-fill"></i>+52 777-496-7829</li>
+            <li><i class="bi bi-geo-alt-fill"></i>Cuernavaca, Morelos</li>
+            <li><i class="bi bi-linkedin"></i><a href="#">linkedin.com/in/tunombre</a></li>
+            <li><i class="bi bi-github"></i><a href="#">github.com/tunombre</a></li>
+          </ul>
+        </div>
+
+        <!-- Habilidades -->
+        <div class="sidebar-section px-4">
+          <h2 class="sidebar-heading"><i class="bi bi-tools me-2"></i>Habilidades</h2>
+          <div class="skills-container">
+            <div class="skill-item">
+              <span class="skill-label">HTML / CSS</span>
+              <div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-label">C / C++</span>
+              <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-label">Git / GitHub</span>
+              <div class="skill-bar"><div class="skill-fill" style="width:70%"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Idiomas -->
+        <div class="sidebar-section px-4 pb-5">
+          <h2 class="sidebar-heading"><i class="bi bi-translate me-2"></i>Idiomas</h2>
+          <ul class="lang-list">
+            <li><span class="lang-name">Español</span><span class="lang-level native">Nativo</span></li>
+          </ul>
+        </div>
+
+      </aside>
+      <!-- ── FIN SIDEBAR ── -->
+
+      <!-- ── CONTENIDO PRINCIPAL ── -->
+      <main class="col-12 col-md-8 main-content px-4 px-lg-5 py-5">
+
+        <!-- Perfil profesional -->
+        <section class="cv-section">
+          <h2 class="section-title"><span>Perfil Profesional</span></h2>
+          <p class="profile-text">
+            Estudiante de <strong>Ingeniería en Tecnologías de la Información</strong> con enfoque en
+            infraestructura en redes digitales. Apasionado por construir interfaces limpias, accesibles y funcionales.
+            Busco aplicar y ampliar mis conocimientos en un entorno profesional donde pueda aportar
+            soluciones tecnológicas de valor.
+          </p>
+        </section>
+
+        <!-- Educación -->
+        <section class="cv-section">
+          <h2 class="section-title"><span>Educación</span></h2>
+          <div class="timeline">
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-body">
+                <div class="row justify-content-between align-items-start">
+                  <div class="col">
+                    <h3 class="tl-role">Ingeniería en Tecnologías de la Información</h3>
+                    <p class="tl-org">Universidad Tecnológica de Emiliano Zapata (UTEZ)</p>
+                  </div>
+                  <div class="col-auto">
+                    <span class="tl-date">2022 – Presente</span>
+                  </div>
+                </div>
+                <p class="tl-desc">Cursos destacados: C, Bases de Datos, Redes, Desarrollo de Software.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-body">
+                <div class="row justify-content-between align-items-start">
+                  <div class="col">
+                    <h3 class="tl-role">Bachillerato General</h3>
+                    <p class="tl-org">Bachilleres del Estado de Morelos Plantel 12 – Xochitepec</p>
+                  </div>
+                  <div class="col-auto">
+                    <span class="tl-date">2019 – 2022</span>
+                  </div>
+                </div>
+                <p class="tl-desc">Mención honorífica en ciencias.</p>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- Experiencia -->
+        <section class="cv-section">
+          <h2 class="section-title"><span>Experiencia</span></h2>
+          <div class="timeline">
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-body">
+                <p class="tl-org">Sin experiencia laboral por el momento.</p>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- Certificaciones -->
+        <section class="cv-section mb-0">
+          <h2 class="section-title"><span>Certificaciones</span></h2>
+          <div class="row g-2">
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div class="cert-badge"><i class="bi bi-patch-check-fill me-2"></i>Cisco</div>
+            </div>
+          </div>
+        </section>
+
+      </main>
+      <!-- ── FIN MAIN ── -->
+
+    </div><!-- /.row -->
+  </div><!-- /.cv-wrapper -->
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
